@@ -1,0 +1,13 @@
+$background:#000;
+$color:red;
+$marginT:20px;
+ul{
+	li  {
+		  list-style:none;
+			a{
+				color:$color;
+				padding-top:$marginT;
+				display:block;
+			}
+		} 
+} 

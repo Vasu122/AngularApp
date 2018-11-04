@@ -1,0 +1,11 @@
+<form (submit)="loginUser($event)">
+    <label><b>UserName &nbsp;&nbsp;</b></label>
+    <input type="text" placeholder="User Name" /><br><br>
+    <label><b>Password</b>&nbsp;&nbsp;</label>
+    <input type="password" placeholder="password" /><br><br><br>
+    <input type="submit" value="Login">
+</form>
+<a [routerLink]="['../register']">register</a>
+<br><br><br>
+
+<a [routerLink]="['../../admin/dashboard']" class="dashboard">dashboard</a>

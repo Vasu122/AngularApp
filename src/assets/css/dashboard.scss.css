@@ -1,0 +1,3953 @@
+/******* hover and active color  black light *******/
+
+
+/********** primary color for button ***********/
+
+
+/****************** left menu panel code color ****************/
+
+
+/**************** summary card code color here *************/
+
+
+/************* header top theme color **************/
+
+
+/**********left side child  menu color ********/
+
+
+/********** navbar head bootom color ********/
+
+
+/********** logo color yellow **************/
+
+
+/************  dark gary code color ************/
+
+nav.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 16%;
+    text-align: left;
+    background: #253340;
+    -webkit-box-shadow: 2.4px 3.2px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 2.4px 3.2px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: 2.4px 3.2px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    box-shadow: 2.4px 3.2px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    color: #fff;
+    transition: all 0.3s linear;
+    z-index: 4;
+    overflow-y: auto;
+}
+
+
+/********************** customNavPills code here */
+
+.customNavPills {
+    background: #000;
+}
+
+.customNavPills .nav-link {
+    padding: 5px 30px;
+    color: #fff;
+    border-right: 1px solid #fff;
+    font-size: 13px;
+    border-radius: 0;
+}
+
+.customNavPills .nav-link:hover {
+    text-decoration: none;
+}
+
+.dashBoardHeader {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 16%);
+    z-index: 4;
+}
+
+.dashBoardHeader .dashLocation {
+    padding: 10px 10px 10px 18px;
+    font-size: 16px;
+}
+
+.dashBoardHeader .dashLocation strong {
+    color: #344750;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+nav.navbar {
+    background: #f4f7fa;
+    padding: 0 0;
+    color: #354555;
+    box-shadow: 5px 4px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+}
+
+.badge.badge-primary {
+    background: #354555;
+}
+
+
+/*************** style changes for dashboard code start here *****************/
+
+
+/********************************************************************************************************************/
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    display: inline-block;
+}
+
+p {
+    color: #888;
+}
+
+i[class*="icon-"] {
+    transform: translateY(4px);
+}
+
+table {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.btn-xs {
+    font-size: 0.7em !important;
+    padding: 2px 5px !important;
+    border-radius: 2px !important;
+}
+
+.badge {
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: width 0.3s linear;
+    width: calc(100% - 16%);
+    background-color: #f4f7fa;
+    min-height: 100vh;
+}
+
+.page.active {
+    width: calc(100% - 70px);
+}
+
+.login-page,
+.register-page {
+    width: 100%;
+}
+
+.gmpc {
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto !important;
+    box-shadow: none !important;
+    color: #354555 !important;
+    border-right: 1px solid #eee;
+}
+
+@media (max-width: 576px) {
+    .gmpc {
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+}
+
+.breadcrumb-holder {
+    background: #eceeef;
+}
+
+.breadcrumb-holder .breadcrumb {
+    padding: 15px 0;
+    font-size: 0.85em;
+    font-weight: 300;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.breadcrumb-holder .breadcrumb a:hover,
+.breadcrumb-holder .breadcrumb:focus {
+    text-decoration: none;
+}
+
+.breadcrumb-holder .breadcrumb .container {
+    padding: 0;
+}
+
+.card-header h2,
+.card-header h3 {
+    margin-bottom: 0;
+}
+
+.display {
+    font-weight: 400 !important;
+}
+
+input.form-control-custom {
+    display: none;
+}
+
+input.form-control-custom:checked+label::before {
+    background: #59b357 !important;
+}
+
+input.form-control-custom:checked+label::after {
+    opacity: 1 !important;
+}
+
+input.form-control-custom.radio-custom+label::before {
+    border-radius: 50%;
+}
+
+input.form-control-custom.radio-custom+label::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    line-height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    top: 7px;
+    left: 5px;
+}
+
+input.form-control-custom[disabled]+label {
+    cursor: not-allowed;
+}
+
+input.form-control-custom[disabled]+label::before,
+input.form-control-custom[disabled]+label::after {
+    border: 2px solid #aaa;
+    cursor: not-allowed;
+}
+
+input.form-control-custom[checked]+label::before,
+input.form-control-custom[checked]+label::after {
+    border: none;
+}
+
+input.form-control-custom+label {
+    font-size: 0.75em;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #999;
+    padding-top: 2px;
+    position: relative;
+}
+
+input.form-control-custom+label span {
+    margin-left: 20px;
+}
+
+input.form-control-custom+label::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    background: #ddd;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+input.form-control-custom+label::after {
+    content: "\f00c";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 8px;
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    transition: all 0.1s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.section-padding {
+    padding: 50px 0;
+}
+
+.section-no-padding-bottom {
+    padding-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .container-fluid {
+        padding: 0 0px;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *     Main NAVBAR
+  * ==========================================================
+  */
+
+nav.navbar .side-navbar-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+nav.navbar .container-fluid {
+    width: 100%;
+}
+
+nav.navbar a {
+    font-size: 0.8em;
+    color: #fff;
+    position: relative;
+}
+
+nav.navbar .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+nav.navbar a.logout i {
+    margin-left: 5px;
+}
+
+nav.navbar small {
+    font-size: 0.75em;
+    color: #999;
+}
+
+nav.navbar a.navbar-brand {
+    margin-left: 10px;
+}
+
+nav.navbar .brand-text {
+    text-transform: uppercase;
+}
+
+nav.navbar .brand-text strong {
+    font-size: 1.5em;
+}
+
+nav.navbar .customDropDown {
+    right: 0;
+    left: auto;
+    float: left;
+    margin-top: 25px;
+    padding: 20px;
+    font-size: 1.1em;
+    position: absolute;
+}
+
+ul.customDropDown:before {
+    content: '';
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ebebeb;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -10px;
+    right: 26%;
+}
+
+nav.navbar .customDropDown a {
+    font-size: 0.75em;
+    color: #666;
+    padding: 10px;
+}
+
+nav.navbar .customDropDown a:active {
+    color: #fff;
+}
+
+nav.navbar .customDropDown a:active span {
+    color: #fff;
+}
+
+nav.navbar .customDropDown a span {
+    color: #777;
+}
+
+nav.navbar .customDropDown a i {
+    margin-right: 5px;
+}
+
+nav.navbar .msg-body span,
+nav.navbar .msg-body strong {
+    display: block;
+}
+
+nav.navbar .msg-body span {
+    font-size: 0.85em;
+}
+
+nav.navbar .msg-profile {
+    margin-right: 10px;
+    width: 50px;
+}
+
+nav.navbar .notification-content {
+    font-size: 0.8em;
+}
+
+nav.navbar a.menu-btn {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #292929;
+    color: #fff;
+    text-align: center;
+    padding: 0 !important;
+    font-size: 34px;
+}
+
+nav.navbar a.menu-btn i[class*="icon-"] {
+    transform: translateY(4px);
+}
+
+nav.navbar a.menu-btn:hover {
+    background: #354555;
+}
+
+
+/*  NAVBAR MEDIAQUERIES ---------------------------------- */
+
+@media (max-width: 576px) {
+    nav.navbar .dropdown-menu {
+        width: auto;
+        right: -40px;
+    }
+    nav.navbar .notification {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+    nav.navbar .dropdown-menu strong {
+        font-weight: 400;
+    }
+    nav.navbar .dropdown-menu a {
+        font-size: 0.9em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *     SIDE NAVBAR
+  * ==========================================================
+  */
+
+nav.side-navbar .scrolled-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+nav.side-navbar.hide {
+    left: -200px;
+}
+
+nav.side-navbar a.brand-small {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0;
+}
+
+nav.side-navbar a.brand-small:hover,
+nav.side-navbar a.brand-small:focus {
+    background: none;
+}
+
+nav.side-navbar a.brand-small strong {
+    font-size: 1.5em;
+}
+
+nav.side-navbar li {
+    position: relative;
+}
+
+nav.side-navbar li.active a {
+    background: #486e91;
+}
+
+nav.side-navbar li.active a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0.3125em;
+    background: #46c1fa;
+    top: 0;
+    bottom: 0;
+}
+
+nav.side-navbar li ul.collapse a {
+    padding-left: 20px;
+    border-left: 2px solid #354555;
+}
+
+nav.side-navbar li ul.collapse a:hover {
+    background: #121212;
+}
+
+nav.side-navbar .sidenav-header {
+    background: #fff !important;
+}
+
+nav.side-navbar .sidenav-header span {
+    font-size: 0.8em;
+    color: #666;
+}
+
+nav.side-navbar .sidenav-header h2 {
+    margin: 10px 0 0;
+}
+
+nav.side-navbar a {
+    font-size: 0.95em;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    padding: 0.9375em 0.9375em 0.9375em 4.375em;
+    position: relative;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+nav.side-navbar a img {
+    position: absolute;
+    left: 1.875em;
+    top: 0.9375em;
+    max-width: 1.5em;
+}
+
+nav.side-navbar a i {
+    position: absolute;
+    left: 1em;
+    top: 14px;
+    font-size: 1.5em;
+}
+
+nav.side-navbar a:focus,
+nav.side-navbar a:hover,
+nav.side-navbar a[aria-expanded="true"] {
+    color: #fff;
+    border-radius: 2px;
+}
+
+nav.side-navbar li ul {
+    background: #292929;
+    position: relative;
+    min-width: 100%;
+    left: 0;
+    padding-left: 0;
+}
+
+nav.side-navbar li ul a {
+    padding-left: 1.25em;
+    font-size: 0.85em;
+}
+
+nav.side-navbar span {
+    display: inline-block;
+}
+
+nav.side-navbar i {
+    font-size: inherit;
+    transition: all 0.3s;
+    margin-right: 10px;
+}
+
+nav.side-navbar .badge {
+    display: inline-block;
+    font-size: 0.6em;
+}
+
+nav.side-navbar .arrow {
+    display: block;
+    font-size: 1em;
+    transform: none;
+}
+
+nav.side-navbar .arrow i {
+    margin: 0;
+}
+
+nav.side-navbar a[aria-expanded="false"] .arrow {
+    transform: none;
+    transform: rotate(90deg);
+}
+
+nav.side-navbar .brand-small {
+    display: none;
+}
+
+nav.side-navbar.shrink {
+    width: 70px;
+    text-align: center;
+}
+
+nav.side-navbar.shrink .brand-small {
+    display: block;
+}
+
+nav.side-navbar.shrink .sidenav-header-inner {
+    display: none;
+}
+
+nav.side-navbar.shrink i {
+    margin-right: 0;
+    font-size: 1.2em;
+}
+
+nav.side-navbar.shrink .arrow {
+    float: none;
+    transform: none !important;
+}
+
+nav.side-navbar.shrink .badge {
+    display: none;
+}
+
+nav.side-navbar.shrink span {
+    font-size: 0.6em;
+    display: block;
+}
+
+
+/* SIDE NAVBAR MEDIAQUERIES ------------------------------ */
+
+.side-navbarRight {
+    position: fixed;
+    top: 0;
+    height: 100%;
+    text-align: left;
+    background: #fff;
+    transition: all 0.3s linear;
+    overflow-y: auto;
+    right: -400px;
+    text-align: center;
+    overflow: visible;
+    z-index: 3;
+}
+
+.rightWrapper {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .page {
+        width: 100%;
+    }
+    .page.active {
+        width: 100%;
+    }
+    .page.active-sm {
+        width: calc(100% - 70px);
+    }
+    nav.side-navbar {
+        left: -200px;
+        text-align: center;
+    }
+    nav.side-navbar.show-sm {
+        left: 0 !important;
+        width: 50%;
+    }
+    nav.side-navbar.show-sm i {
+        opacity: 0;
+    }
+    nav.side-navbar a {
+        font-size: 0.80em;
+    }
+    nav.side-navbar .brand-small {
+        display: block;
+    }
+    nav.side-navbar i {
+        margin-right: 0;
+        font-size: 1.2em;
+    }
+    nav.side-navbar .arrow {
+        float: none;
+        transform: none !important;
+    }
+    nav.side-navbar .badge {
+        display: none;
+    }
+    nav.side-navbar span {
+        font-size: 0.65em;
+        display: block;
+    }
+    nav.side-navbar li ul a {
+        font-size: 0.6em;
+    }
+    /************** righside bar code start here *************/
+    .side-navbarRight.show-smRight {
+        right: 0;
+        width: 50%;
+        z-index: 4;
+    }
+    .side-navbarRight.show-smRight i {
+        opacity: 0;
+    }
+    .SocailRight {
+        position: absolute;
+        right: 400px;
+        width: 40px;
+        height: 40px;
+        padding-top: 0.3125em;
+        font-size: 1.375em;
+        margin-top: 8px;
+        background: #354555;
+        border-radius: 50%;
+        margin-right: 0.3125em;
+    }
+    .rightWrapper h3 {
+        color: #333;
+        padding: 0.9375em 0.3125em;
+        text-align: center;
+        background: #f1f1f1;
+        font-size: 1.3em;
+    }
+    .side-navbarRight.show-smRight .SocailRight {
+        background: transparent;
+    }
+    .dashBoardHeader {
+        z-index: 2;
+    }
+}
+
+@media (min-width: 992px) {
+    nav.side-navbar a {
+        font-size: 0.85em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *      DASHBOARD COUNTS
+  * ==========================================================
+  */
+
+section.dashboard-counts {
+    color: #333;
+}
+
+section.dashboard-counts .count-title span {
+    font-size: 0.8em;
+    color: #aaa;
+    display: block;
+}
+
+section.dashboard-counts .count-title i {
+    font-size: 1.5em;
+    color: #354555;
+}
+
+section.dashboard-counts .icon {
+    margin-right: 10px;
+}
+
+section.dashboard-counts strong {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: #555;
+    display: block;
+}
+
+section.dashboard-counts .count-number {
+    font-size: 2.2em;
+    font-weight: 300;
+}
+
+
+/* DASHBOARD COUNTS MEDIAQUERIES ------------------------- */
+
+@media (min-width: 992px) {
+    section.dashboard-counts strong {
+        font-size: 1em;
+    }
+    section.dashboard-counts span {
+        font-size: 0.9em;
+    }
+    section.dashboard-counts .count-number {
+        font-size: 3em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *     DASHBOARD HEADER
+  * ==========================================================
+  */
+
+section.dashboard-header {
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+section.dashboard-header .check-lists {
+    margin-top: 20px;
+}
+
+section.dashboard-header .check-lists label {
+    font-size: 0.75em;
+}
+
+section.dashboard-header #pieChart {
+    max-width: 300px !important;
+    max-height: 300px !important;
+    margin: 0 auto;
+}
+
+section.dashboard-header p {
+    font-size: 0.75em;
+    font-weight: 400;
+    color: #888;
+}
+
+section.dashboard-header li {
+    margin-bottom: 10px;
+}
+
+
+/* DASHBOARD HEADER MEDIAQUERIES ------------------------- */
+
+@media (max-width: 992px) {
+    section.dashboard-header {
+        background: none;
+        border: none;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    section.dashboard-header div[class*="col-"] {
+        margin-bottom: 40px;
+    }
+    section.dashboard-header div[class*="col-"] .wrapper {
+        background: #fff;
+        padding: 30px;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+    .dashBoardH .monitorText {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    section.dashboard-header p {
+        font-size: 0.9em;
+    }
+    section.dashboard-header h2 {
+        font-size: 1.3rem;
+    }
+    section.dashboard-header .check-lists label {
+        font-size: 0.85em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *      STATISTICS
+  * ==========================================================
+  */
+
+section.statistics {
+    /* User Activity ------------- */
+}
+
+section.statistics div[class*="col-"] .wrapper {
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: 100%;
+}
+
+section.statistics h2 {
+    margin-bottom: 20px;
+}
+
+section.statistics p {
+    font-size: 0.85em;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+section.statistics .income .icon {
+    font-size: 3.5em;
+}
+
+section.statistics .income .number {
+    font-size: 2.5em;
+    color: #555;
+}
+
+section.statistics .income strong {
+    font-size: 1.5em;
+}
+
+section.statistics .data-usage canvas {
+    width: 100%;
+    max-width: 200px;
+    border: none;
+}
+
+section.statistics .data-usage strong {
+    font-size: 1.5em;
+    display: block;
+}
+
+section.statistics .data-usage small {
+    font-size: 0.85em;
+    font-weight: 300;
+    color: #aaa;
+}
+
+section.statistics .data-usage span {
+    font-size: 0.95em;
+    color: #aaa;
+    display: block;
+}
+
+section.statistics .data-usage p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+section.statistics .user-activity .number {
+    font-size: 2.5em;
+    font-weight: 300;
+    color: #555;
+}
+
+section.statistics .user-activity .progress {
+    border-radius: 0;
+    background: #f5f5f5;
+}
+
+section.statistics .user-activity .progress .progress-bar.bg-primary {
+    background: #354555 !important;
+}
+
+section.statistics .user-activity .page-statistics {
+    margin-top: 20px;
+}
+
+section.statistics .user-activity .page-statistics strong {
+    display: block;
+    text-transform: uppercase;
+    color: #354555;
+    font-size: 2em;
+}
+
+
+/* STATISTICS  MEDIAQUERIES ------------------------- */
+
+@media (max-width: 992px) {
+    section.statistics {
+        padding-top: 0;
+    }
+    section.statistics div[class*="col-"] .wrapper {
+        margin-bottom: 40px;
+    }
+    section.statistics div[class*="col-"]:last-of-type .wrapper {
+        margin-bottom: 0;
+    }
+    section.statistics .data-usage {
+        text-align: center;
+    }
+}
+
+@media (max-width: 992px) {
+    section.statistics div[class*="col-"] .wrapper {
+        height: auto;
+        margin-bottom: 40px;
+    }
+    section.statistics div[class*="col-"]:last-of-type .wrapper {
+        margin-bottom: 0;
+    }
+    section.statistics .data-usage div[class*="col-"]:first-of-type {
+        padding-bottom: 20px;
+    }
+    section.statistics .data-usage .gmpc {
+        padding-bottom: 20px !important;
+    }
+    p {
+        font-size: 0.75em;
+    }
+}
+
+@media (min-width: 992px) {
+    section.statistics h2 {
+        font-size: 1.3rem;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *      UPDATES SECTION
+  * ==========================================================
+  */
+
+section.updates div[class*="col-"]>div {
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+section.updates .left-col {
+    padding-right: 20px;
+}
+
+section.updates .card-header {
+    height: 50px;
+    background: #fff;
+    border-top: none;
+    border-bottom-color: #f3f3f3;
+}
+
+section.updates .card-header h2 {
+    color: #555;
+}
+
+section.updates .icon {
+    margin-right: 10px;
+}
+
+section.updates li {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 0.75rem 1.25rem;
+}
+
+section.updates .update-date {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #bbb;
+    display: block;
+}
+
+section.updates span {
+    font-size: 0.7em;
+    font-weight: 300;
+    color: #aaa;
+    line-height: 0.5em;
+    display: block;
+}
+
+section.updates strong {
+    font-weight: 400;
+    color: #555;
+    font-size: 0.9em;
+}
+
+section.updates small {
+    font-size: 0.75em;
+}
+
+section.updates a {
+    color: #555;
+}
+
+section.updates a:hover,
+section.updates a:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+section.updates h2 {
+    margin-bottom: 0;
+}
+
+section.updates p {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+
+/* UPDATES MEDIAQUERIES ------------------------- */
+
+@media (min-width: 992px) {
+    section.updates h2 {
+        font-size: 1.05rem;
+    }
+    section.updates strong {
+        font-size: 1em;
+        font-weight: 400;
+    }
+    section.updates small {
+        font-size: 0.85em;
+    }
+    section.updates .full-date {
+        font-size: 0.85em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *      FEEDS SECTION
+  * ==========================================================
+  */
+
+section.updates {
+    /*  Daily Feeds ------------------- */
+    /* Activities  ------------------- */
+}
+
+section.updates .daily-feeds a.feed-profile {
+    margin-right: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+section.updates .daily-feeds a.feed-profile img {
+    width: 100%;
+    height: 100%;
+}
+
+section.updates .daily-feeds .badge {
+    margin-right: 10px;
+}
+
+section.updates .daily-feeds strong {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+section.updates .daily-feeds small {
+    color: #999;
+    display: block;
+    margin-bottom: 5px;
+}
+
+section.updates .daily-feeds .card {
+    padding: 10px;
+    background: #fafafa;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+section.updates .daily-feeds .full-date {
+    line-height: 0.7em;
+    margin-bottom: 10px;
+}
+
+section.updates .daily-feeds .CTAs a {
+    margin-right: 5px;
+}
+
+section.updates .daily-feeds .CTAs a i {
+    margin-right: 5px;
+}
+
+section.updates .daily-feeds .CTAs a:last-of-type {
+    margin-right: 0;
+}
+
+section.updates .activities li {
+    padding: 0;
+}
+
+section.updates .activities .date-holder {
+    padding-right: 0;
+}
+
+section.updates .activities .date-holder .date {
+    box-shadow: none;
+}
+
+section.updates .activities .date-holder .date span {
+    font-size: 0.8em;
+}
+
+section.updates .activities .date-holder .icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #f5f5f5;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+}
+
+section.updates .activities .date-holder span {
+    display: block;
+    margin: 10px;
+}
+
+section.updates .activities .content {
+    border-left: 1px solid #eee;
+    border-bottom: 20px;
+    padding: 10px 20px;
+}
+
+section.updates .activities .content strong {
+    display: block;
+    margin-right: 5px;
+}
+
+
+/* FEEDS MEDIAQUERIES ------------------------- */
+
+@media (max-width: 1091px) {
+    section.updates div[class*="col-"] .wrapper {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    section.updates strong {
+        font-size: 1em;
+    }
+    section.updates small {
+        font-size: 0.8em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *       MAIN FOOTER
+  * ==========================================================
+  */
+
+footer.main-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background: #222;
+    padding: 10px 0;
+}
+
+footer.main-footer p {
+    font-size: 0.7em;
+    color: #777;
+    margin: 0;
+}
+
+
+/* MAIN FOOTER MEDIAQUERIES ------------------------- */
+
+@media (max-width: 576px) {
+    footer.main-footer div[class*="col-"] {
+        text-align: center !important;
+    }
+}
+
+@media (min-width: 992px) {
+    footer.main-footer p {
+        font-size: 0.9em;
+    }
+}
+
+section.charts div[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+section.charts header {
+    padding: 30px 0;
+}
+
+
+/*
+  * ==========================================================
+  *     LINE CHART
+  * ==========================================================
+  */
+
+.line-chart-example .card-block {
+    padding: 20px;
+}
+
+
+/*
+  * ==========================================================
+  *     POLAR CHART
+  * ==========================================================
+  */
+
+.bar-chart-example .card-block {
+    padding: 20px;
+}
+
+
+/*
+  * ==========================================================
+  *     POLAR CHART
+  * ==========================================================
+  */
+
+.polar-chart-example canvas {
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px auto;
+}
+
+
+/*
+  * ==========================================================
+  *     PIE CHART
+  * ==========================================================
+  */
+
+.pie-chart-example canvas {
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px auto;
+}
+
+
+/*
+  * ==========================================================
+  *     RADAR CHART
+  * ==========================================================
+  */
+
+.radar-chart-example .card-block canvas {
+    max-width: 350px;
+    max-height: 350px;
+    margin: 20px auto;
+}
+
+
+/* FORMS MEDIAQUERIES -------------------------- */
+
+@media (min-width: 992px) {
+    section.charts h2 {
+        font-size: 1rem;
+    }
+}
+
+section.forms div[class*="col-"] {
+    margin-bottom: 30px;
+}
+
+section.forms header {
+    padding: 30px 0;
+}
+
+section.forms .form {
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+section.forms .form .form-header {
+    padding: 10px 20px;
+    background: #fafafa;
+}
+
+section.forms .form .form-body {
+    padding: 20px;
+}
+
+section.forms .line {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px dashed #eee;
+    margin: 20px 0 30px;
+}
+
+section.forms .form-group {
+    margin-bottom: 0;
+}
+
+section.forms .btn-primary,
+section.forms .btn-secondary {
+    font-weight: 300;
+    font-size: 0.75em;
+    border-radius: 0;
+}
+
+
+/*
+  * ==========================================================
+  *     FORMS GENERAL
+  * ==========================================================
+  */
+
+section.forms p {
+    font-size: 0.8em;
+    color: #999;
+}
+
+section.forms input.form-control {
+    border-radius: 0;
+}
+
+section.forms input.form-control::-moz-placeholder {
+    font-size: 0.75em;
+    font-weight: 300;
+    color: #aaa;
+    font-family: "Roboto", sans-serif;
+}
+
+section.forms input.form-control::-webkit-input-placeholder {
+    font-size: 0.75em;
+    font-weight: 300;
+    color: #aaa;
+    font-family: "Roboto", sans-serif;
+}
+
+section.forms input.form-control:-ms-input-placeholder {
+    font-size: 0.75em;
+    font-weight: 300;
+    color: #aaa;
+    font-family: "Roboto", sans-serif;
+}
+
+section.forms .select {
+    margin-bottom: 20px;
+}
+
+section.forms .select:last-of-type {
+    margin-bottom: 0;
+}
+
+section.forms select {
+    border-radius: 0;
+    border-color: #ddd;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+section.forms select option {
+    color: #999;
+    font-weight: 300;
+}
+
+section.forms .form-group {
+    margin-bottom: 10px;
+}
+
+section.forms .form-group div[class*="col-"] {
+    margin-bottom: 10px;
+}
+
+section.forms label {
+    font-size: 0.8em;
+}
+
+section.forms small,
+section.forms span {
+    font-size: 0.65em;
+    color: #999;
+}
+
+section.forms label span,
+section.forms label small {
+    font-size: 0.8em;
+}
+
+section.forms .input-group-addon {
+    border-radius: 0;
+    background: #f5f5f5;
+}
+
+section.forms span.input-group-addon {
+    font-size: 0.8em;
+    font-weight: 300;
+    background: none;
+}
+
+section.forms .input-group-btn {
+    font-size: 1em;
+}
+
+section.forms .input-group-btn button.dropdown-toggle {
+    background: #eee;
+    font-size: 0.8em;
+    color: #777;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+section.forms .input-group-btn .dropdown-menu {
+    padding: 10px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+section.forms .input-group-btn .dropdown-menu a {
+    text-decoration: none;
+    color: inherit;
+    padding: 4px 0;
+}
+
+
+/* FORMS MEDIAQUERIES -------------------------- */
+
+@media (min-width: 992px) {
+    section.forms h2 {
+        font-size: 1rem;
+    }
+    section.forms input.form-control {
+        border-radius: 0;
+    }
+    section.forms input.form-control::-moz-placeholder {
+        font-size: 0.85em;
+    }
+    section.forms input.form-control::-webkit-input-placeholder {
+        font-size: 0.85em;
+    }
+    section.forms input.form-control:-ms-input-placeholder {
+        font-size: 0.85em;
+    }
+    section.forms p {
+        font-size: 0.9em;
+    }
+    section.forms label {
+        font-size: 0.9em;
+    }
+    section.forms small,
+    section.forms span {
+        font-size: 0.8em;
+        color: #999;
+    }
+    section.forms label span,
+    section.forms label small {
+        font-size: 0.9em;
+    }
+    section.forms .btn-primary,
+    section.forms .btn-secondary {
+        font-size: 0.95em;
+    }
+}
+
+
+/*
+  * ==========================================================
+  *     LOGIN PAGE
+  * ==========================================================
+  */
+
+.login-page,
+.register-page {
+    background: #f5f5f5;
+    min-height: auto;
+    padding-bottom: 0;
+}
+
+.login-page .form-outer,
+.register-page .form-outer {
+    min-height: 100vh;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+.login-page .copyrights,
+.register-page .copyrights {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.login-page .copyrights p,
+.register-page .copyrights p {
+    font-size: 0.6em;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.login-page .form-inner,
+.register-page .form-inner {
+    padding: 40px 30px;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.login-page .logo,
+.register-page .logo {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.login-page .logo span,
+.register-page .logo span {
+    color: #ccc;
+}
+
+.login-page p,
+.register-page p {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+.login-page form,
+.register-page form {
+    margin: 0 auto 10px;
+    max-width: 300px;
+}
+
+.login-page form .form-group,
+.register-page form .form-group {
+    position: relative;
+}
+
+.login-page form input,
+.register-page form input {
+    outline: none;
+    border-radius: 0;
+    width: 100%;
+    margin-right: 10px;
+    padding: 6px 10px;
+    color: #333;
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.login-page form input[type="text"],
+.login-page form input[type="password"],
+.login-page form input[type="email"],
+.register-page form input[type="text"],
+.register-page form input[type="password"],
+.register-page form input[type="email"] {
+    background: none;
+}
+
+.login-page form input[type="submit"],
+.register-page form input[type="submit"] {
+    width: 200px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.login-page form label.error,
+.register-page form label.error {
+    font-size: 0.7em;
+    color: #d9534f;
+    margin-bottom: 0;
+}
+
+.login-page form label.label-custom,
+.register-page form label.label-custom {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #aaa;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 100%;
+    cursor: text;
+    transition: all 0.4s;
+}
+
+.login-page form label.label-custom.active,
+.register-page form label.label-custom.active {
+    top: 5px;
+    color: #354555;
+}
+
+.login-page a.forgot-pass,
+.login-page a.signup,
+.register-page a.forgot-pass,
+.register-page a.signup {
+    font-size: 0.65em;
+    color: #43a7fd;
+}
+
+.login-page a.forgot-pass:hover,
+.login-page a.forgot-pass:focus,
+.login-page a.signup:hover,
+.login-page a.signup:focus,
+.register-page a.forgot-pass:hover,
+.register-page a.forgot-pass:focus,
+.register-page a.signup:hover,
+.register-page a.signup:focus {
+    color: #43a7fd;
+    text-decoration: none;
+}
+
+.login-page a.forgot-pass,
+.register-page a.forgot-pass {
+    display: block;
+}
+
+.login-page a.create-account,
+.register-page a.create-account {
+    border-radius: 50px;
+    font-size: 0.75em;
+    margin-top: 10px;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.login-page .terms-conditions,
+.register-page .terms-conditions {
+    margin-top: 20px;
+}
+
+.login-page small,
+.register-page small {
+    font-size: 0.65em;
+    color: #aaa;
+    line-height: 0.9em;
+}
+
+
+/* LOGIN MEDIAQUERIES -------------------------- */
+
+@media (min-width: 992px) {
+    .login-page p,
+    .register-page p {
+        font-size: 0.9em;
+    }
+    .login-page form label.label-custom,
+    .register-page form label.label-custom {
+        font-size: 0.9em;
+    }
+    .login-page form small,
+    .register-page form small {
+        font-size: 0.8em;
+    }
+    .login-page .terms-conditions label,
+    .register-page .terms-conditions label {
+        font-size: 0.9em;
+    }
+    .login-page a.forgot-pass,
+    .login-page a.signup,
+    .register-page a.forgot-pass,
+    .register-page a.signup {
+        font-size: 0.8em;
+    }
+    .login-page small,
+    .register-page small {
+        font-size: 0.8em;
+    }
+    .login-page .copyrights p,
+    .register-page .copyrights p {
+        font-size: 0.85em;
+        font-weight: 400;
+    }
+}
+
+
+/*
+
+  =====================
+  STYLE SWITCHER FOR DEMO
+  =====================
+
+  */
+
+#style-switch-button {
+    position: fixed;
+    top: 120px;
+    right: 0px;
+    border-radius: 0;
+    z-index: 2;
+}
+
+#style-switch {
+    width: 300px;
+    padding: 20px;
+    position: fixed;
+    top: 160px;
+    right: 0;
+    background: #fff;
+    border: solid 1px #eceeef;
+    z-index: 2000;
+}
+
+#style-switch h4 {
+    color: #464a4c;
+}
+
+
+/* ========================================= */
+
+
+/* THEMING OF BOOTSTRAP COMPONENTS           */
+
+
+/* ========================================= */
+
+
+/*
+   * 1. NAVBAR
+   */
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler-left {
+    left: 1rem;
+}
+
+.navbar-toggler-right {
+    right: 1rem;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-toggler:focus,
+.navbar-light .navbar-toggler:hover {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    columns: #252525;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-light .navbar-nav .open>.nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.open,
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-light .navbar-text {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-toggler {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-toggler:focus,
+.navbar-inverse .navbar-toggler:hover {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-inverse .navbar-nav .nav-link:focus,
+.navbar-inverse .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-inverse .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-inverse .navbar-nav .open>.nav-link,
+.navbar-inverse .navbar-nav .active>.nav-link,
+.navbar-inverse .navbar-nav .nav-link.open,
+.navbar-inverse .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-inverse .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-inverse .navbar-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+a {
+    color: #354555;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #22773c;
+    text-decoration: underline;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.display-1 {
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.display-2 {
+    font-size: 5.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.display-3 {
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.blockquote {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    border-left: 0.25rem solid #eceeef;
+}
+
+.blockquote-footer {
+    color: #636c72;
+}
+
+.blockquote-footer::before {
+    content: "\2014 \00A0";
+}
+
+.blockquote-reverse {
+    padding-right: 1rem;
+    padding-left: 0;
+    text-align: right;
+    border-right: 0.25rem solid #eceeef;
+    border-left: 0;
+}
+
+.text-primary {
+    color: #354555 !important;
+}
+
+a.text-primary:focus,
+a.text-primary:hover {
+    color: #288b46 !important;
+}
+
+
+/*
+   * 4. PAGINATION
+   */
+
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+}
+
+.page-item:last-child .page-link {
+    border-bottom-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #354555;
+    border-color: #354555;
+}
+
+.page-item.disabled .page-link {
+    color: #636c72;
+    pointer-events: none;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+.page-link {
+    padding: 0.5rem 0.75rem;
+    line-height: 1.25;
+    color: #354555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.page-link:focus,
+.page-link:hover {
+    color: #22773c;
+    text-decoration: none;
+    background-color: #eceeef;
+    border-color: #ddd;
+}
+
+.pagination-lg .page-link {
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+}
+
+.pagination-lg .page-item:first-child .page-link {
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+}
+
+.pagination-lg .page-item:last-child .page-link {
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+}
+
+.pagination-sm .page-link {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+.pagination-sm .page-item:first-child .page-link {
+    border-bottom-left-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+}
+
+.pagination-sm .page-item:last-child .page-link {
+    border-bottom-right-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+
+
+/********  background:rabindra ;*/
+
+.dashDropDown {
+    border-radius: 20px;
+    position: relative;
+    padding: 10px 20px 10px 40px;
+    background: #fff;
+    color: #354555;
+    background: #c9d2d9;
+    border-color: #c9d2d9;
+    font-weight: 400;
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-left: 15px !important;
+}
+
+.dashDropDown i {
+    position: absolute;
+    left: 5px;
+    top: 8px;
+}
+
+.dashLoca string {
+    padding-left: 30px;
+    display: inline-block;
+}
+
+.customMenu li.active a.li-visited {
+    background-color: #486e91 !important;
+    border-color: #486e91;
+}
+
+.li-visited+span {
+    color: #ccc !important;
+}
+
+.dashBoardH {
+    height: 70px;
+}
+
+
+/* .side-navbar .side-navbar-wrapper .dashBoardH {
+  box-shadow: none !important;
+} */
+
+.dashBoardH .monitorText {
+    font-size: 1em;
+    letter-spacing: -0.3px;
+    text-align: left;
+    color: #354555;
+    font-weight: 400;
+}
+
+.selected-list .c-btn {
+    border-radius: 23px !important;
+    background: #7e8d9d !important;
+    color: #fff !important;
+    position: relative;
+    padding: 8px 8px 8px 45px !important;
+}
+
+.searchBox .borderR23 {
+    border-radius: 23px;
+    padding: .375rem .75rem;
+    padding-right: 2rem;
+    font-size: 15px;
+    padding-top: 10px;
+    border: 1px solid #fff;
+    max-width: 185px;
+}
+
+.searchBox .borderR23:focus {
+    outline: 0;
+}
+
+
+/****************** top navbar code start here ****************/
+
+.drop {
+    display: inline-block !important;
+    width: 100%;
+    position: relative;
+}
+
+.addBtn {
+    border-radius: 20px;
+    background-color: #354555;
+    color: #fff;
+    border: none;
+}
+
+.searchBoxM {
+    margin-right: 0;
+}
+
+.searchBox {
+    position: relative;
+    color: #a1b1c2;
+    z-index: 0;
+}
+
+.searchBox .input-group-btn {
+    position: static;
+}
+
+.searchBox i {
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    z-index: 3;
+    color: #a1b1c2;
+}
+
+.searchBox .input-group-btn {
+    font-size: 0.9em;
+}
+
+.addBtn:hover,
+.NavTopIcon li a.Round:hover {
+    background: #486e91;
+    border-color: #486e91;
+}
+
+.NavTopIcon li {
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.NavTopIcon li.profileDropDown {
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+
+.NavTopIcon li.profileDropDown.borderNone {
+    padding-left: 0px;
+}
+
+.NavTopIcon .addBtn {
+    min-width: 100px;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 0 !important;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.NavTopIcon .addBtn i {
+    position: absolute;
+    left: 1.25em;
+    top: 0.71em;
+}
+
+.NavTopIcon li a.Round {
+    color: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #354555;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 1.25em;
+    color: #fff;
+    position: relative;
+}
+
+.NavTopIcon li a.Round span {
+    position: absolute;
+    top: -8px;
+    right: 3px;
+    color: #000;
+    background: #f1f1f1;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.NavTopIcon .waves-effect {
+    overflow: visible;
+}
+
+
+/****************** top navbar code end here ****************/
+
+.shadowR,
+.gridEmpList {
+    -moz-box-shadow: 2.4px 0px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: 2.4px 0px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 2.4px 0px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    box-shadow: 2.4px 0px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+    background: #f3f3f3;
+}
+
+
+/************************** modal code here ****************/
+
+.dropdownMenu {
+    position: relative;
+}
+
+.dropdownMenu ul {
+    background: #ebebeb;
+    /* width: 200px; */
+    padding: 0 0px 0 3px !important;
+    -webkit-box-shadow: 0px 2px 18px 6px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 2px 18px 6px rgba(0, 0, 0, 0.35);
+    -ms-box-shadow: 0px 2px 18px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 2px 18px 6px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    right: -15px !important;
+    left: auto !important;
+    z-index: 9999;
+    border-radius: 6px;
+}
+
+.NavTopIcon .dropdownMenu ul li {
+    border: none !important;
+    border-bottom: 1px solid #ccc !important;
+    width: 180px !important;
+    background: #f4f7fa;
+    border-color: #f4f7fa;
+    padding-left: 0;
+}
+
+.NavTopIcon .dropdownMenu ul li:last-child {
+    border-bottom: none !important;
+}
+
+.dropdownMenu ul li a {
+    width: 180px !important;
+    border-radius: 0;
+    height: auto;
+    padding: 0;
+    background: #ebebeb;
+    transition: all 0.2s;
+    color: #354555 !important;
+}
+
+.dropdownMenu ul li a:hover {
+    background: #f5f5f5;
+    text-decoration: none;
+}
+
+.dropdownMenu .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/******************* dashboard modal css code here Add thing and add controller **************/
+
+.addThingTab {
+    margin: 2em 4.84%;
+}
+
+.addThingTab .nav-tabs .nav-link {
+    padding: 8px 50px;
+}
+
+.addThingTab .nav-tabs .nav-link.active {
+    background: #006f5c;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.addThingTab .active.tab-pane {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+}
+
+.addThingTab .nav-tabs {
+    border: none;
+}
+
+.addThingTab .mat-form-field,
+.customMaterial .mat-form-field {
+    height: 55px !important;
+}
+
+
+/********* employee modal code start here *************/
+
+.employeeRole p.proceed {
+    padding: 61px 0 30px 0px;
+    font-size: 1em;
+    color: #363636;
+    font-weight: normal;
+}
+
+.addNewEmpR {
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    text-align: left;
+    font-size: 1.1em;
+    color: #363636;
+}
+
+.d-flex.align-items-center.addingEmpR {
+    line-height: 0;
+    height: 40px;
+    border-bottom: 1px solid #253340;
+    padding-bottom: 10px;
+}
+
+.addingEmpR i.material-icons {
+    padding-top: 3px;
+    font-size: 0.8em;
+    color: #fff;
+}
+
+.addNewEmp {
+    background: #fff;
+    color: #363636;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.37em;
+    font-weight: normal;
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+    width: 100%;
+    text-transform: capitalize;
+    box-shadow: 0px 5px 4.8px 0.3px rgba(0, 0, 0, 0.35);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.addNewEmp span {
+    line-height: 26px !important;
+    display: inline-flex;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 0.8em;
+}
+
+.addNewEmp:hover {
+    background: #f1f1f1;
+}
+
+.modal-dialog {
+    top: 50%;
+    -webkit-transform: translateY(-50%) !important;
+    -moz-transform: translateY(-50%) !important;
+    -ms-transform: translateY(-50%) !important;
+    transform: translateY(-50%) !important;
+}
+
+
+/************* adding employee role modal create here *****************/
+
+.addingEmp .paddingLR {
+    padding: 40px 5.2%;
+}
+
+.addingEmpBg,
+.addingEmpBg .modal-content {
+    background: #ebebeb !important;
+}
+
+.addingEmpBg .secondaryClose {
+    background: #006f5c;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.addingEmpBgP {
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.addingEmpBg .radioList {
+    font-size: 12px;
+}
+
+.addingEmpBg .customModal .modal-lg {
+    padding: 0;
+}
+
+.forMobile {
+    display: none;
+}
+
+
+/*************************** notify Manager modal code start here *********/
+
+.notifyManager textarea,
+.broadcastAlertC textarea,
+.borderRound300,
+.createServiceLog textarea,
+.newMessage textarea {
+    width: 100%;
+    height: 300px;
+    padding: 15px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.borderRound300 {
+    border: 1px solid #ebebeb;
+    font-size: 12px;
+}
+
+.machineMonitor .borderRemove {
+    border: none;
+    border-bottom: 1px solid #666;
+    width: 100px;
+}
+
+
+/********************* BroadCast Alert modal code start here *************/
+
+.broadCastAlert {
+    width: 480px;
+    padding: 10px;
+    border-radius: 5px;
+    background: #ebebeb;
+    margin: 15px 0;
+}
+
+.broadCastAlert button {
+    margin-bottom: 5px;
+    background: #fff;
+    color: #999;
+    border-radius: 5px;
+}
+
+.broadCastAlert button .badge {
+    background: #006f5c;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    vertical-align: text-top;
+    line-height: 18px;
+    right: -10px !important;
+}
+
+
+/***************serviceDue code start here *************/
+
+.serviceDue .roundCircle i,
+.removingEmpName .roundCircle i,
+.congratulations .roundCircle i,
+.cncMachineSucess .roundCircle i,
+.removeData .roundCircle i {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 40px;
+}
+
+.cncMachineSucess .roundCircle i {
+    color: #fff;
+}
+
+.serviceDue .roundCircle i,
+.removingEmpName .roundCircle i,
+.removeData i {
+    background: #de426b;
+    color: #f1a80a;
+}
+
+.congratulations .roundCircle i,
+.cncMachineSucess .roundCircle i {
+    background: #4bcf99;
+    color: #fff;
+}
+
+.cncMachineSucess .roundCircle i {
+    color: #fff;
+}
+
+.backIcon i {
+    cursor: pointer;
+}
+
+.largeDropDown {
+    width: 400px;
+}
+
+.smallDropDown {
+    width: 230px;
+}
+
+.dashBoardH {
+    height: 70px;
+    background-color: #d7dde4 !important;
+    box-shadow: 5px 4px 3.8px 0.2px rgba(0, 0, 0, 0.35) !important;
+}
+
+
+/************************** dragulla services code start here *************/
+
+.gu-mirror {
+    position: fixed !important;
+    margin: 0 !important;
+    z-index: 9999 !important;
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+}
+
+.gu-hide {
+    display: none !important;
+}
+
+.gu-unselectable {
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+.gu-transit {
+    opacity: 0.2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+    filter: alpha(opacity=20);
+}
+
+.mobML15 {
+    margin-left: 15px;
+}
+
+
+/******************** company Name modal code start here ***************/
+
+.companyName .borderBottom {
+    padding: 15px 20px 0 20px;
+    margin: 0;
+}
+
+.companyName .customHeadingModal {
+    padding-bottom: 0;
+}
+
+.companyName .companyRound {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #354555;
+    border-radius: 50%;
+    position: absolute;
+    top: -16px;
+    right: 15px;
+}
+
+.companyName p,
+.notifyManager p,
+.machineRecovered p,
+.sharescreen p {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: #888888;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.78;
+    letter-spacing: normal;
+    padding-left: 40px;
+}
+
+.companyName .marginT {
+    margin-top: 10px;
+}
+
+.companyBg {
+    background: #f7f7f7;
+}
+
+.companyBg label {
+    padding-bottom: 0;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.78;
+    letter-spacing: normal;
+    color: #344750;
+    padding-top: 10px;
+}
+
+.companyName .companyRound i {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.companyName .companyRound label {
+    width: 35px;
+    height: 35px;
+    background: #006f5c;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+    font-size: 0.7em;
+    text-align: center;
+    line-height: 35px;
+}
+
+.roundCircle100 {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 350px;
+}
+
+
+/* .form-control:focus,.form-control:active,.form-control:visited,.form-control:active,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus
+{
+  -webkit-box-shadow: 0 0 0 0.1rem $headerThemeColor;
+  -moz-box-shadow: 0 0 0 0.1rem $headerThemeColor;
+  -ms-box-shadow: 0 0 0 0.1rem $headerThemeColor;
+  box-shadow: 0 0 0 0.1rem $headerThemeColor;
+} */
+
+
+/*************************** notificationDropDown  ************************/
+
+.headerDropDown {
+    position: relative;
+}
+
+.headerDropDown .notificationDropDown {
+    position: absolute;
+    right: -50px;
+    top: 36px;
+    display: none;
+    z-index: 9;
+}
+
+.headerDropDown .arrowUp,
+.profileDropDown .arrowUp {
+    display: none;
+}
+
+.headerDropDown .innerDropDownN {
+    width: 400px;
+    border-radius: 10px;
+    background-color: #ebebeb;
+    box-shadow: 0px 2px 19px 6px rgba(0, 0, 0, 0.35);
+    margin-top: 15px;
+}
+
+.headerDropDown .innerDropDownN p {
+    padding-top: 10px;
+}
+
+.headerDropDown:hover .notificationDropDown,
+.headerDropDown:hover .arrowUp,
+.profileDropDown:hover .arrowUp {
+    display: inline;
+}
+
+.headerDropDown:hover .notificationDropDown a {
+    width: 100% !important;
+    background: transparent;
+}
+
+.headerDropDown .innerDropDownN {
+    padding: 5px 15px 15px;
+}
+
+.headerDropDown .cardCustom {
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.headerDropDown .cardCustom h4 {
+    font-size: 15px;
+}
+
+.headerDropDown .cardCustom h4,
+.cardCustom b,
+a.viewAll {
+    color: #354555 !important;
+}
+
+.headerDropDown a.viewAll {
+    font-size: 15px !important;
+}
+
+.headerDropDown .cardCustom .rightDetails small {
+    color: #0daeb8;
+}
+
+.headerDropDown .transparentText {
+    margin-bottom: 5px;
+}
+
+.headerDropDown .arrowUp,
+.profileDropDown .arrowUp {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ebebeb;
+    position: absolute;
+    left: 13px;
+    top: 41px;
+    z-index: 99;
+}
+
+.profileDropDown .arrowUp {
+    left: 25px;
+}
+
+.profileDropDown.profileM .arrowUp {
+    left: 14px;
+}
+
+.headerDropDown .rightDetails label {
+    width: 7px;
+    height: 7px;
+    background-color: #3cb878;
+    border-radius: 50%;
+}
+
+.headerDropDown .cardCustom .acTop {
+    position: relative;
+}
+
+.headerDropDown .cardCustom .acTop .acCheck {
+    padding-left: 50px;
+}
+
+.headerDropDown .cardCustom .acTop img {
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 40px;
+    height: auto;
+}
+
+.NavTopIcon .customDropDown li a {
+    padding: 10px 0 !important;
+}
+
+.pure-checkbox input[type="checkbox"]+label:before,
+.pure-checkbox input[type="checkbox"]:checked+label:before,
+.pure-checkbox input[type="checkbox"]+label:after,
+.pure-checkbox input[type="checkbox"]+label:after {
+    box-sizing: content-box;
+    content: '';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0 !important;
+    height: 0px !important;
+    margin-top: -9px;
+    border: 0px !important;
+    text-align: center;
+    transition: all 0.4s ease;
+    opacity: 0 !important;
+}
+
+
+/********************* remote control button code start here *******************/
+
+.remote-control div {
+    margin-top: 10px;
+    position: fixed;
+    width: 74px;
+    height: 74px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    line-height: 74px;
+    /* padding: 10px 20px; */
+    background-color: #354555;
+    box-shadow: 0px 4px 3.8px 0.2px rgba(0, 0, 0, 0.35);
+}
+
+.remote-control div img {
+    height: 43px;
+}
+
+.tgsShadow {
+    background: #fff;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.remote-control div:hover {
+    background: #486e91;
+}
+
+:host /deep/ .selected-list .c-btn {
+    box-shadow: 0px 1px 5px transparent !important;
+}
+
+:host /deep/ .drop .selected-list .c-btn {
+    box-shadow: 0px 1px 5px transparent !important;
+}
+
+.drop .selected-list .c-btn {
+    box-shadow: 0px 1px 5px transparent !important;
+}
+
+:host /deep/ .drop .selected-list .c-btn {
+    box-shadow: 0px 1px 5px transparent !important;
+}
+
+.selected-list .fa-angle-down,
+.selected-list .fa-angle-up {
+    color: #253340;
+}
+
+.selected-list[_ngcontent-c4] .c-btn[_ngcontent-c4] {
+    box-shadow: 0px 1px 5px transparent !important;
+}
+
+.searchBox .form-control {
+    border: 1px solid transparent !important;
+}
+
+.modal .searchBox input {
+    border: 1px solid #ccc !important;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 767px) {
+    .headerDropDown .innerDropDownN {
+        width: 300px;
+    }
+    /* .NavTopIcon li:last-child {
+    padding-left: 5px;
+  } */
+}
+
+
+/*********************** add money modal code start here ***********/
+
+.addMoneyModal {
+    max-width: 328px;
+}
+
+.addMoneyM ul.nav li.nav-item {
+    width: 55px;
+    height: 55px;
+    background: #7e8e9f;
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px 8px;
+    cursor: pointer;
+    line-height: 55px;
+    transition: all 0.3s;
+    color: #fff;
+    font-size: 0.8125em;
+}
+
+.addMoneyM .addMoneyBtn {
+    background: #006f5c;
+    border: 1px solid #006f5c;
+    box-shadow: 1px 2px 3px 0 #006f5c;
+}
+
+.addMoneyM ul.nav li.nav-item:hover,
+.addMoneyM ul.nav li.active,
+.addMoneyM .addMoneyBtn:hover {
+    background: #f6921e;
+    box-shadow: 1px 2px 3px 0 #f6921e;
+    border-color: #f6921e;
+}
+
+.addMoneyM .addImg img {
+    width: 5.06914em;
+    height: 5.06914em;
+    margin-top: 1.875em;
+}
+
+.addMoneyM .modal-body {
+    padding: 1.25em;
+}
+
+.addMoneyM .pb15 {
+    padding-bottom: 30px;
+}
+
+.addMoneyM h5 {
+    color: #253340;
+}
+
+.buttonG .btn-md {
+    position: relative;
+}
+
+.buttonG .btn-md {
+    background: #7e8e9f;
+    font-size: 20px;
+    border-radius: 0;
+    margin-bottom: 1px;
+    margin-top: 0;
+    color: #fff;
+    transition: all 0.3s linear;
+}
+
+.buttonG .btn-md i {
+    font-size: 43px;
+    top: -2px;
+    position: absolute;
+    right: 15px;
+    color: #2e3e50;
+}
+
+.buttonG .btn-md:hover {
+    background: #486e91;
+}
+
+.profileDropDown {
+    position: relative;
+}
+
+.profileDropDown .profileContainer {
+    display: none;
+    position: absolute;
+    right: -9px;
+    top: 36px;
+    width: 200px;
+    z-index: 1;
+}
+
+.profileDropDown .profileContainer .profileInner {
+    border-radius: 10px;
+    background-color: #ebebeb;
+    box-shadow: 0px 2px 19px 6px rgba(0, 0, 0, 0.35);
+    margin-top: 15px;
+    padding: 10px 0 10px;
+}
+
+.profileDropDown:hover .profileContainer {
+    display: block;
+}
+
+.profileDropDown .profileContainer .profileInner li {
+    padding-left: 0 !important;
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+    transition: all 0.3s linear;
+    list-style: none;
+}
+
+.profileDropDown .profileContainer .profileInner li:last-child {
+    border-bottom: none;
+}
+
+.profileDropDown .profileContainer .profileInner li a {
+    padding: 10px 6px;
+    font-size: 18px;
+    color: #354555;
+    display: block;
+}
+
+.profileDropDown .profileContainer .profileInner li a:hover {
+    background: #253340;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/******************* all modal responsive code start here **************/
+
+@media all and (max-width: 767px) {
+    /* .addMoneyM ul.nav li.nav-item {
+    width: 65px;
+    height: 65px;
+    padding-top: 22px;
+    margin: 10px 2px;
+  } */
+    .profileDropDown .arrowUp {
+        left: 12px;
+    }
+    .profileDropDown .profileContainer {
+        right: 0;
+    }
+    .companyName p,
+    .notifyManager p,
+    .machineRecovered p,
+    .sharescreen p {
+        padding-left: 20px;
+    }
+    .notifyManager textarea,
+    .broadcastAlertC textarea,
+    .borderRound300,
+    .createServiceLog textarea,
+    .newMessage textarea {
+        min-height: 100px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+}
+
+
+/************************ All charts code start here ***************/
+
+.chartGroup .chart,
+.customrow,
+.reportCard {
+    background: #fff;
+    padding: 1.31em 1.31em 0.625em;
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    margin-top: 0.9375em;
+    margin-left: 0px;
+}
+
+.customrow {
+    padding: 0.9375em 1.31em;
+}
+
+.chartGroup .chartLM {
+    margin-left: 10px;
+}
+
+.modalSm {
+    max-width: 328px;
+}
+
+.modalSm .modal-body {
+    padding-top: 0;
+}
+
+.modalSm .modal-content {
+    padding: 30px;
+}
+
+.modalSm h4 {
+    font-size: 1.3125em;
+    margin-bottom: 20px;
+}
+
+.createR {
+    width: 157.94375px;
+    height: 34.15px;
+    border-radius: 10px;
+    background-color: #006f5c;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    border: 1px solid #006f5c;
+    color: #f6f6f6;
+    font-size: 12.80px;
+    transition: all 0.3s linear;
+}
+
+.createR:hover {
+    background-color: #486e91;
+    border-color: #486e91;
+}
+
+.employeeRole .form-row.formRow>.col,
+.employeeRole .form-row>[class*="col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+@media all and (min-width: 1600px) {
+    .chartGroup .chart {
+        margin-top: 1.875em;
+        padding: 1.875em 1.875em 0.625em;
+    }
+    nav.side-navbar a {
+        font-size: 1.2em;
+    }
+    .chartHeader .leftContent span {
+        font-size: 1.5625em;
+    }
+    .chartGroup .pad {
+        font-size: 0.875em;
+    }
+    .modalSm {
+        max-width: 462px;
+    }
+    .accordionList .manufGroupN a {
+        padding: 10px !important;
+    }
+}
+
+.chartHeader {
+    padding: 0 0 1.875em;
+    color: #344750;
+    font-weight: normal;
+}
+
+.chartHeader .leftContent span {
+    /* font-size: 1.3em; */
+    display: inline-block;
+    line-height: 25px;
+}
+
+.chartHeader a {
+    font-size: 0.9em;
+}
+
+.chartGroup .chartHeader .electricparam {
+    color: green;
+    text-transform: capitalize;
+}
+
+.chartGroup .pad {
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.chartGroup h6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.chartButton .chartBtn {
+    background: #006f5c;
+    border: 1px solid #006f5c;
+    color: #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 119px;
+    height: 34px;
+    font-size: 0.71em;
+    text-align: center;
+}
+
+.chartButton .chartBtn:hover {
+    opacity: 0.8;
+}
+
+
+/************* innerheader button *************/
+
+.childBtn {
+    background: #354555;
+    border: 1px solid #354555;
+    color: #f6f6f6;
+    border-radius: 10px;
+    margin-right: 10px;
+    height: 34px;
+    font-size: 0.71em;
+    text-align: center;
+}
+
+.childBtn:hover {
+    opacity: 0.8;
+}
+
+
+/************************ All charts code end here ***************/
+
+
+/*********************** scrollbar code start here *********************/
+
+.scrollbar {
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#style-2::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #253340;
+}
+
+
+/********************* all second header code start here ******************/
+
+.ngxCarousel {
+    position: static !important;
+}
+
+.ngx-header {
+    padding-left: 0.625em;
+}
+
+.posR {
+    position: relative;
+}
+
+.posR i {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: #006f5c;
+    padding: 10px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.customSel i {
+    background: transparent;
+    color: #000;
+}
+
+.leftRs,
+.rightRs {
+    position: absolute;
+    background: #7e8e9e;
+    color: #fff;
+    border: 1px solid #7e8e9e;
+    padding: 0 7px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.3s linear;
+}
+
+.leftRs {
+    left: 0;
+}
+
+.rightRs {
+    right: 0;
+}
+
+.leftRs:hover,
+.rightRs:hover {
+    background: #354555;
+    border-color: #354555;
+}
+
+.leftRs,
+.rightRs i {
+    font-size: 22px;
+}
+
+.modal.show .modal-dialog {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label,
+.mat-form-field-empty.mat-form-field-label {
+    font-size: 0.978em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-align: left;
+    color: #363636;
+}
+
+.accordionList .manufGroup.manufGroupN {
+    padding-left: 10px !important;
+}
+
+
+/* .accordionList .manufGroupN a{
+  padding:5px 0px !important;
+} */
+
+@media all and (min-width: 1600px) {
+    .accordionList .manufGroupN a {
+        padding: 5px 5px !important;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .pure-checkbox input[type="checkbox"]+label {
+        padding-left: 0 !important;
+    }
+}
+
+.panelBg {
+    padding: 15px 0;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.35);
+    color: #636363;
+    font-size: 1em;
+    min-height: 5em;
+}
+
+.panelBg .textWrap {
+    word-wrap: break-word;
+}
+
+.tableHeading {
+    font-size: 1em;
+    text-align: left;
+    border-bottom: 1px solid #253340;
+    padding-bottom: 10px;
+    color: #363636;
+}
+
+.backIcon img,
+.backArrow img {
+    cursor: pointer;
+}
+
+nav.navbar.dashBoardH.newDashboard {
+    box-shadow: none !important;
+}
+
+@media all and (max-width: 767px) {
+    .dropdownMenu ul {
+        z-index: 99999 !important;
+    }
+    .dashBoardHeader {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .dashBoardH {
+        height: auto !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    .dashBoardH .dashLoca {
+        margin-bottom: 10px;
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 15px;
+        padding-left: 35px;
+    }
+    .dashBoardH .searchBox {
+        margin-bottom: 10px;
+        z-index: 0;
+    }
+    nav.side-navbar.show-sm,
+    .side-navbarRight.show-smRight {
+        width: 75%;
+    }
+    /*********** for mobile code start here *******************/
+    /* .navbar.dashBoardH .plr15{
+    padding-left: 0;
+    padding-right: 0;
+  } */
+    .navbar.dashBoardH .selected-list {
+        margin-left: 30px;
+    }
+    .navbar.dashBoardH .drop i {
+        left: 40px;
+    }
+    .dashBoardH .drop {
+        width: 50%;
+    }
+    .navbar.dashBoardH .selected-list {
+        width: 100%;
+    }
+    .selected-list .c-btn {
+        padding: 8px 8px 8px 25px !important;
+    }
+    .NavTopIcon li.forMob2,
+    .NavTopIcon li.forMob3,
+    li.profileDropDown {
+        position: absolute;
+        top: 7px;
+    }
+    nav.side-navbar i {
+        margin-top: 15px;
+        padding-left: 5px;
+    }
+    .NavTopIcon li.forMob2 {
+        right: 92px;
+    }
+    .NavTopIcon li.forMob3 {
+        right: 46px;
+    }
+    li.profileDropDown {
+        right: 0;
+    }
+    .NavTopIcon li:last-child {
+        border-left: none;
+    }
+    li.nav-item.mr15.searchBoxM {
+        width: 46%;
+        margin-left: 3px;
+    }
+    li.nav-item.mr15.searchBoxM .searchBox {
+        width: 100%;
+    }
+    .NavTopIcon .dropdownMenu ul li {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+    .forDesktop {
+        display: none;
+    }
+    .forMobile {
+        display: block;
+    }
+    .scrollbar {
+        float: none !important;
+        margin-bottom: 0;
+    }
+    .accordionList {
+        padding-top: 0 !important;
+    }
+    .chartGroup .chart {
+        padding: 0.9375em;
+    }
+    .chartHeader .leftContent span {
+        font-size: 0.8em;
+    }
+    .chartGroup .pad {
+        font-size: 0.6em;
+    }
+    .leftRs,
+    .rightRs {
+        padding: 0 4px;
+    }
+    .forMobileOverflow {
+        width: 100%;
+        overflow-x: scroll;
+    }
+    .forMobileOverflow .overflowXMob {
+        width: 800px;
+    }
+    .mobp20 {
+        padding-left: 20px;
+    }
+}
+
+@media all and (min-width: 361px) and (max-width: 390px) {
+    li.nav-item.mr15.searchBoxM {
+        width: 40%;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 360px) {
+    li.nav-item.mr15.searchBoxM {
+        width: 42%;
+    }
+    .NavTopIcon li.forMob2 {
+        right: 80px;
+    }
+    .NavTopIcon li.forMob3 {
+        right: 41px;
+    }
+    .NavTopIcon li {
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0.9% !important;
+    }
+}
+
+@media all and (min-width: 391px) and (max-width: 767px) {
+    .NavTopIcon li {
+        text-align: center;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 7px;
+    }
+}
+
+.innerDropDownN p>span {
+    cursor: pointer;
+}
+
+@media all and (max-width: 1290px) {
+    .dashBoardH .monitorText {
+        padding-left: 30px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    .drop,
+    .searchBox {
+        width: 180px;
+    }
+    .drop {
+        margin-left: 20px;
+    }
+    a.SocailRight {
+        margin-top: 12px;
+    }
+    .selected-list .c-btn {
+        padding: 8px 8px 8px 38px !important;
+    }
+    .mdmt15 {
+        margin-top: 0 !important;
+        margin-right: 25px;
+    }
+    nav.side-navbar i {
+        padding-top: 30px;
+    }
+    .dashBoardHeader {
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    nav.side-navbar i {
+        font-size: 1em;
+        padding-top: 18px;
+        padding-left: 8px;
+    }
+    .remote-control div {
+        width: 53px;
+        height: 53px;
+        line-height: 53px;
+    }
+    .remote-control div img {
+        height: 31px;
+    }
+    .NavTopIcon li.profileDropDown {
+        padding-right: 7px;
+    }
+}
+
+@media (max-width: 992px) {
+    section.dashboard-counts div[class*="col-"] {
+        margin-bottom: 20px;
+    }
+    .dashBoardH {
+        height: auto;
+    }
+    nav.navbar {
+        padding: 0;
+    }
+    .menu-btn.mobileFor {
+        position: absolute;
+        left: 200px;
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+        font-size: 25px;
+    }
+    .mobileFor {
+        display: inline-block;
+    }
+    .desktopFor {
+        display: none;
+    }
+    nav.side-navbar {
+        overflow: visible;
+        z-index: 9;
+    }
+    nav.side-navbar.show-sm {
+        overflow-y: scroll;
+    }
+    .SocailRight,
+    .NavTopIcon li a.Round {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        padding: 0;
+    }
+    .NavTopIcon li a.Round {
+        margin-top: 3px;
+    }
+    .SocailRight i,
+    .NavTopIcon li a.Round i {
+        font-size: 0.9375em;
+        color: #fff;
+    }
+    .forMobilePoint a.Round {
+        font-size: 0.875em;
+    }
+    .panelBg,
+    .tableHeading {
+        font-size: 0.75em;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .dashBoardH .monitorText {
+        display: none;
+    }
+    .mobpL15 {
+        padding-left: 15px;
+    }
+    .largeDropDown {
+        width: 100%;
+    }
+    .smallDropDown {
+        width: 100%;
+    }
+    .controlMargin {
+        margin: 10px 0 30px 0px;
+    }
+    .addNewEmp {
+        padding: 30px 15px;
+        height: 0;
+    }
+    .employeeRole p.proceed {
+        padding: 10px 0 30px;
+    }
+    .addingEmpBg .modal-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .addingEmpR .p-2 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .addingEmpR .addNewEmpR {
+        font-size: 1em;
+        display: none;
+    }
+    .mobML15 {
+        margin-left: 0;
+    }
+    nav.side-navbar a {
+        text-align: left;
+    }
+    .SocailRight {
+        margin-top: 9px;
+    }
+    .NavTopIcon li:nth-child(3) .innerDropDownN,
+    .NavTopIcon li:nth-child(4) .innerDropDownN {
+        width: 300px !important;
+    }
+    /* .NavTopIcon li:last-child {
+    padding-left: 5px;
+  } */
+    .forMobilePoint a {
+        font-size: 1.1em;
+    }
+    .forMobile {
+        display: block;
+    }
+    .alertTable {
+        margin-left: 0;
+    }
+    .machineMonitor .ml-20 {
+        margin-left: 0;
+    }
+    .machineMonitor .mtb {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .machineMonitor .workingH {
+        font-size: 12px;
+    }
+    .companyName p {
+        max-width: 65%;
+    }
+    .companyName p {
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    .remote-control div {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .remote-control div img {
+        height: 23px;
+    }
+    .addingEmp .paddingLR {
+        padding: 10px 5.2%;
+    }
+    .mpL0 {
+        padding-left: 15px !important;
+    }
+    .forMobilePoint {
+        margin-left: 7px;
+        /* padding-left: 4px !important */
+    }
+    .forMobilePoint a.Round {
+        font-size: 0.8em !important;
+    }
+    .mobPadding {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .NavTopIcon .addBtn {
+        margin-top: 2px;
+    }
+    .addThingTab .nav-tabs .nav-link {
+        padding: 8px 10px;
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.customDropLocation {
+    color: #7e8d9d;
+    position: relative;
+    padding: 11px 8px 7px 0px;
+    cursor: pointer;
+}
+
+.dropdown.drop i {
+    position: absolute;
+    right: 45px;
+    color: #fff !important;
+    top: 9px;
+    border: none;
+    font-size: 1.5em;
+}
+
+.dropdown.drop.show i.show {
+    display: none;
+}
+
+.dropdown.drop.show i.hide {
+    display: inline;
+}
+
+.drop ul {
+    background: #ebebeb;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 18px 6px rgba(0, 0, 0, 0.35);
+    padding: 15px 5px;
+    width: 100%;
+}
+
+.drop li {
+    border-bottom: 1px solid #898989;
+    font-size: 17px;
+    color: #354555;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.drop li:last-child {
+    border-bottom: none;
+}
+
+.drop li:hover {
+    background: #f5f5f5;
+}
+
+.monitorL .rounded-circle {
+    width: 40px;
+    height: 40px;
+    background: #354555;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.monitorL .rounded-circle img {
+    width: 23px;
+}
+
+.drop.show .rounded-circle {
+    background: #486e91;
+}
+
+.dropdown-toggle:after {
+    display: none;
+}
+
+.bottomPosMenu {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: inherit;
+}
+
+nav.side-navbar .bottomPosMenu a {
+    padding: 10px 0 0 !important;
+    height: 55px;
+    line-height: 55px;
+    opacity: 0.8;
+    background-color: #354555;
+    text-align: center;
+}
+
+nav.side-navbar .bottomPosMenu i {
+    font-size: 1.8em;
+    font-weight: 400 !important;
+    margin-right: 0;
+    opacity: 1;
+    color: #fff;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+nav.side-navbar .bottomPosMenu .dropdown-menu a {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+nav.side-navbar .bottomPosMenu a:hover {
+    background: #486e91;
+}
+
+
+/***************** ****************/
+
+.d-none {
+    display: none !important;
+}
+
+
+/***********************megamenu code start here ***************/
+
+.megaMenu li ul,
+.megaMenu li ul ul.megaInn2 {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    background: #ebebeb;
+    top: 0;
+}
+
+.megaMenu li,
+ul.megaInn2 li {
+    position: relative;
+}
+
+.megaMenu li:hover ul.megaInn {
+    display: block;
+}
+
+ul.megaInn li:hover ul.megaInn2 {
+    display: block;
+}
+
+.blacky {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+    z-index: 3;
+}
+
+.show-sm .dashBoardH a {
+    text-align: center;
+    height: 49px !important;
+}
+
+.show-sm .sidenav-header.dashBoardH a img {
+    min-width: 33%;
+}
+
+.mainBodyPage {
+    min-height: 1000px;
+}
+
+nav.navbar a.active {
+    color: #006f5c
+}

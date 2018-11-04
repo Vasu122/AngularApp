@@ -1,0 +1,18 @@
+@import '../../../assets/css/appColor';
+.dashboard {
+    background: $redColor;
+    color: $bgColor;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    -webkit-transition: width .3s ease-in-out;
+    transition: width 2s, height 4s;
+    text-decoration: none;
+    &:hover {
+        background: $greenColor;
+        width: 300px;
+    }
+}
